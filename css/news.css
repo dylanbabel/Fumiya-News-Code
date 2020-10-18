@@ -1,0 +1,67 @@
+body{
+	margin:0;
+	padding:0;
+}
+.feed-container{
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+	text-align: center;
+    overflow-x: hidden;
+}
+.feed-container .header{
+	margin:0px;
+	padding:3px 3px 3px 3px;
+}
+.feed-container .footer{
+	display:none;
+	padding:5px 5px 5px 5px;
+}
+.feed-container .content{
+	margin:3px;
+	padding:0 3px;
+}
+.feed-container .content .item{
+	margin:0 0 7px 0;
+	padding:0 0 7px 0;
+	border-bottom:0px solid #CCCCCC;
+}
+.feed-container .content .item .title{
+	color:#0099FF;
+	text-align: center;
+	font-size: 1.25em;
+	text-decoration:none;
+}
+.feed-container .content .item .title a:link{
+	color:#0099FF;
+	text-align: center;
+	font-size: 1.2em;
+	text-decoration:none;
+}
+.feed-container .content .item .title a:visited{
+	color:#0099FF;
+	text-align: center;
+	font-size: 1.2em;
+	text-decoration:none;
+}
+.feed-container .content .item .title a:hover{
+	color:#0099FF;
+	text-align: center;
+	font-size: 1.2em;
+	text-decoration:none;
+}
+.feed-container .content .item .title a:active{
+	color:#0099FF;
+	text-align: center;
+	font-size: 1.2em;
+	text-decoration:none;
+}
+.feed-container .content .item .description a{
+	text-decoration:none;
+	text-align: center;
+	color:#666666;
+}
+.feed-container .content .item .description a:hover{
+	text-decoration:underline;
+	text-align: center;
+	color:#666666;
+}
